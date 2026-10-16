@@ -21,6 +21,8 @@ int main() {
     assert(a == 2);
     assert(b == 3);
     assert(c == 1);
+    std::cout << "Test 1.1 PASSED: swap_ptr" << std::endl;
+
 
     // Test 1.2
     homework::UniqueData o{42};
@@ -30,6 +32,8 @@ int main() {
     o.set(99);
 
     assert(o.get() == 99);
+    std::cout << "Test 1.2 PASSED: UniqueData" << std::endl;
+
 
     return 0;
   
