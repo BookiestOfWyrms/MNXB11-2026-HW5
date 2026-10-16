@@ -47,6 +47,7 @@ int main() {
         std::cout.rdbuf(oss.rdbuf());
         knight.attack();
         std::cout.rdbuf(oldCoutStreamBuf);
+        std::cout << "Actual Knight output: [" << oss.str() << "]\n";
 
         auto knightClone = knight.clone();
 
@@ -68,7 +69,7 @@ int main() {
         std::cout.rdbuf(oss.rdbuf());
         sorcerer.attack();
         std::cout.rdbuf(oldCoutStreamBuf);
-
+        std::cout << "Actual Sorcerer output: [" << oss.str() << "]\n";
         auto sorcClone = sorcerer.clone();
 
         if (oss.str() == "Jinx casts a fireball\n" &&
@@ -78,7 +79,6 @@ int main() {
             std::cout << "Sorcerer test FAILED\n";
     }
 
-    return 0;
 
     return 0;
   

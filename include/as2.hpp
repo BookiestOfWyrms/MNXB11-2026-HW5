@@ -38,10 +38,9 @@ namespace homework {
 {
 
     explicit Knight(std::string name): Entity(name) {}
-    void attack() const override 
+    void attack() const override
     {
-      std::cout << getName() << "" << "swings a" 
-      << weaponName << std::endl;
+      std::cout << getName() << " swings a " << weaponName << "\n";
     }
 
     std::unique_ptr<Entity> clone() const override
@@ -71,10 +70,9 @@ namespace homework {
   struct Sorcerer: public Entity
   {
     explicit Sorcerer(std::string name): Entity(name) {}
-    void attack() const override 
+    void attack() const override
     {
-      std::cout << getName() << "" << "does magic and uses" 
-      << " " << abilityName << std::endl;
+      std::cout << getName() << " casts a " << abilityName << "\n";
     }
 
     std::unique_ptr<Entity> clone() const override
