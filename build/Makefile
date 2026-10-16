@@ -530,6 +530,19 @@ test_runner1/fast:
 .PHONY : test_runner1/fast
 
 #=============================================================================
+# Target rules for targets named test_runner2
+
+# Build rule for target.
+test_runner2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_runner2
+.PHONY : test_runner2
+
+# fast build rule for target.
+test_runner2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_runner2.dir/build.make CMakeFiles/test_runner2.dir/build
+.PHONY : test_runner2/fast
+
+#=============================================================================
 # Target rules for targets named Catch2
 
 # Build rule for target.
@@ -651,6 +664,30 @@ tests/test1.cxx.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_runner1.dir/build.make CMakeFiles/test_runner1.dir/tests/test1.cxx.s
 .PHONY : tests/test1.cxx.s
 
+tests/test2.o: tests/test2.cxx.o
+.PHONY : tests/test2.o
+
+# target to build an object file
+tests/test2.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_runner2.dir/build.make CMakeFiles/test_runner2.dir/tests/test2.cxx.o
+.PHONY : tests/test2.cxx.o
+
+tests/test2.i: tests/test2.cxx.i
+.PHONY : tests/test2.i
+
+# target to preprocess a source file
+tests/test2.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_runner2.dir/build.make CMakeFiles/test_runner2.dir/tests/test2.cxx.i
+.PHONY : tests/test2.cxx.i
+
+tests/test2.s: tests/test2.cxx.s
+.PHONY : tests/test2.s
+
+# target to generate assembly for a file
+tests/test2.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_runner2.dir/build.make CMakeFiles/test_runner2.dir/tests/test2.cxx.s
+.PHONY : tests/test2.cxx.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -693,6 +730,7 @@ help:
 	@echo "... hwlib"
 	@echo "... main"
 	@echo "... test_runner1"
+	@echo "... test_runner2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -705,6 +743,9 @@ help:
 	@echo "... tests/test1.o"
 	@echo "... tests/test1.i"
 	@echo "... tests/test1.s"
+	@echo "... tests/test2.o"
+	@echo "... tests/test2.i"
+	@echo "... tests/test2.s"
 .PHONY : help
 
 

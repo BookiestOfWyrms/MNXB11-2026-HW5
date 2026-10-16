@@ -483,7 +483,7 @@ HOMEWORK2_IS_TOP_LEVEL:STATIC=ON
 HOMEWORK2_SOURCE_DIR:STATIC=/home/mateipop/git/MNXB11-2026-HW5
 
 //Homework level (1,2)
-LVL:STRING=1
+LVL:STRING=2
 
 //Command to build the project
 MAKECOMMAND:STRING=/usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"

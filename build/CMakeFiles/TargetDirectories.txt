@@ -29,6 +29,7 @@
 /home/mateipop/git/MNXB11-2026-HW5/build/CMakeFiles/ContinuousMemCheck.dir
 /home/mateipop/git/MNXB11-2026-HW5/build/CMakeFiles/ContinuousSubmit.dir
 /home/mateipop/git/MNXB11-2026-HW5/build/CMakeFiles/test_runner1.dir
+/home/mateipop/git/MNXB11-2026-HW5/build/CMakeFiles/test_runner2.dir
 /home/mateipop/git/MNXB11-2026-HW5/build/CMakeFiles/test.dir
 /home/mateipop/git/MNXB11-2026-HW5/build/CMakeFiles/edit_cache.dir
 /home/mateipop/git/MNXB11-2026-HW5/build/CMakeFiles/rebuild_cache.dir

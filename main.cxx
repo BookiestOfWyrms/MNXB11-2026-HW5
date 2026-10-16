@@ -6,6 +6,9 @@
 #include "as1.hpp"
 #include <iostream>
 #include <cassert>
+#include "as2.hpp"
+#include <sstream>
+
 
 using namespace homework;
 
@@ -33,7 +36,49 @@ int main() {
 
     assert(o.get() == 99);
     std::cout << "Test 1.2 PASSED: UniqueData" << std::endl;
+ // Test Knight
+    {
+        homework::Knight knight("Janx");
+        knight.setWeapon("sword");
 
+        std::ostringstream oss;
+        std::streambuf* oldCoutStreamBuf = std::cout.rdbuf();
+
+        std::cout.rdbuf(oss.rdbuf());
+        knight.attack();
+        std::cout.rdbuf(oldCoutStreamBuf);
+
+        auto knightClone = knight.clone();
+
+        if (oss.str() == "Janx swings a sword\n" &&
+            knightClone->getName() == "Janx")
+            std::cout << "Knight test PASSED\n";
+        else
+            std::cout << "Knight test FAILED\n";
+    }
+
+    // Test Sorcerer
+    {
+        homework::Sorcerer sorcerer("Jinx");
+        sorcerer.setAbility("fireball");
+
+        std::ostringstream oss;
+        std::streambuf* oldCoutStreamBuf = std::cout.rdbuf();
+
+        std::cout.rdbuf(oss.rdbuf());
+        sorcerer.attack();
+        std::cout.rdbuf(oldCoutStreamBuf);
+
+        auto sorcClone = sorcerer.clone();
+
+        if (oss.str() == "Jinx casts a fireball\n" &&
+            sorcClone->getName() == "Jinx")
+            std::cout << "Sorcerer test PASSED\n";
+        else
+            std::cout << "Sorcerer test FAILED\n";
+    }
+
+    return 0;
 
     return 0;
   
