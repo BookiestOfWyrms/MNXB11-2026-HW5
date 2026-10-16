@@ -260,8 +260,116 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/cassert \
-  /usr/include/assert.h
+  /usr/include/assert.h \
+  /home/mateipop/git/MNXB11-2026-HW5/include/as2.hpp \
+  /usr/include/c++/11/random \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/c++/11/bits/random.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/x86_64-redhat-linux/bits/opt_random.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/mm_malloc.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/mwaitintrin.h \
+  /usr/include/c++/11/bits/random.tcc \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc
 
+
+/usr/include/c++/11/sstream:
+
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/11/numeric:
+
+/usr/include/c++/11/bits/random.tcc:
+
+/usr/lib/gcc/x86_64-redhat-linux/11/include/mwaitintrin.h:
+
+/usr/include/c++/11/stdlib.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/11/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/11/include/pmmintrin.h:
+
+/usr/include/c++/11/x86_64-redhat-linux/bits/opt_random.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/bits/random.h:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+/usr/include/c++/11/limits:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/bits/iscanonical.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/random:
+
+/home/mateipop/git/MNXB11-2026-HW5/include/as2.hpp:
 
 /usr/include/c++/11/cassert:
 
@@ -278,6 +386,8 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 /usr/include/linux/types.h:
 
 /usr/include/linux/sched/types.h:
+
+/usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/bits/types/struct_timespec.h:
 
@@ -317,9 +427,13 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 
 /usr/include/bits/posix1_lim.h:
 
+/usr/include/c++/11/tr1/gamma.tcc:
+
 /usr/include/bits/types/__locale_t.h:
 
 /usr/include/bits/types/locale_t.h:
+
+/usr/include/bits/fp-logb.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
@@ -389,6 +503,8 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 
 /usr/include/c++/11/bits/stl_function.h:
 
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
 /usr/include/bits/posix2_lim.h:
 
 /usr/include/c++/11/bits/hash_bytes.h:
@@ -417,6 +533,8 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 
 /usr/include/c++/11/x86_64-redhat-linux/bits/os_defines.h:
 
+/usr/include/c++/11/bits/stl_numeric.h:
+
 /usr/include/bits/pthreadtypes-arch.h:
 
 /home/mateipop/git/MNXB11-2026-HW5/include/as1.hpp:
@@ -426,6 +544,8 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 /usr/include/c++/11/bits/alloc_traits.h:
 
 /usr/include/c++/11/pstl/pstl_config.h:
+
+/usr/include/c++/11/cmath:
 
 /usr/include/c++/11/bits/allocator.h:
 
@@ -493,6 +613,10 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 
 /usr/include/c++/11/bits/range_access.h:
 
+/usr/lib/gcc/x86_64-redhat-linux/11/include/mm_malloc.h:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
 /usr/include/bits/xopen_lim.h:
 
 /usr/include/c++/11/debug/debug.h:
@@ -545,9 +669,13 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 
 /usr/include/c++/11/ext/string_conversions.h:
 
+/usr/include/c++/11/tr1/beta_function.tcc:
+
 /usr/include/c++/11/array:
 
 /usr/include/bits/byteswap.h:
+
+/usr/include/c++/11/bits/sstream.tcc:
 
 /usr/include/c++/11/new:
 
@@ -579,6 +707,8 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 
 /usr/include/bits/errno.h:
 
+/usr/include/bits/fp-fast.h:
+
 /usr/include/sched.h:
 
 /usr/include/wctype.h:
@@ -596,6 +726,8 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/11/include/xmmintrin.h:
 
 /usr/include/bits/struct_rwlock.h:
 
@@ -658,6 +790,8 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 /usr/include/bits/uintn-identity.h:
 
 /usr/include/bits/select.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/11/include/emmintrin.h:
 
 /usr/include/bits/types/sigset_t.h:
 
@@ -749,6 +883,8 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 
 /usr/include/bits/local_lim.h:
 
+/usr/include/bits/math-vector.h:
+
 /usr/include/bits/uio_lim.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
@@ -774,6 +910,8 @@ CMakeFiles/main.dir/main.cxx.o: /home/mateipop/git/MNXB11-2026-HW5/main.cxx \
 /usr/include/c++/11/istream:
 
 /usr/include/bits/syscall.h:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
